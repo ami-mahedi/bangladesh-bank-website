@@ -70,9 +70,6 @@ The project is hosted using GitHub Pages.
 
 ## 🖼️ Project Preview
 
-Add a screenshot of your completed website to the repository root and name it `images.jpg`.
-
-Once the image is uploaded, it will appear here:
 
 <p align="center">
   <img src="/images.png" alt="Bangladesh Bank Website Project Preview" width="100%">
