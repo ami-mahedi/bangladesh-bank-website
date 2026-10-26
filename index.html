@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bangladesh Bank</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+  <div class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <form class="search" id="searchForm" role="search">
+      <input id="searchInput" type="search" placeholder="Search" aria-label="Search this page">
+      <button type="submit" aria-label="Search">⌕</button>
+    </form>
+    <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">বাংলা</a>
+  </div>
+
+  <header class="header">
+    <div class="brand">
+      <a class="logo-box" href="https://www.bb.org.bd/" target="_blank" rel="noopener" aria-label="Bangladesh Bank official website">
+        <img src="asstes/logo.png" alt="Bangladesh Bank logo">
+      </a>
+      <div class="brand-text">
+        <h1>BANGLADESH BANK</h1>
+        <p>Central Bank of Bangladesh</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Main navigation">
+    <button type="button">ABOUT US</button>
+    <button type="button">MONETARY POLICY</button>
+    <button type="button">FINANCIAL SYSTEM</button>
+    <button type="button">FX MARKET</button>
+    <button type="button">G-SEC MARKET</button>
+    <button type="button">PUBLICATION</button>
+  </nav>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <button type="button">ABOUT US</button>
+    <button type="button">MONETARY POLICY</button>
+    <button type="button">FINANCIAL SYSTEM</button>
+    <button type="button">FX MARKET</button>
+    <button type="button">G-SEC MARKET</button>
+    <button type="button">PUBLICATION</button>
+  </nav>
+
+  <main id="home">
+    <section class="slider" aria-label="News banner">
+      <div class="slides" id="slides"></div>
+      <button class="slide-btn prev" id="prevBtn" aria-label="Previous slide">‹</button>
+      <button class="slide-btn next" id="nextBtn" aria-label="Next slide">›</button>
+      <div class="dots" id="dots" aria-label="Choose slide"></div>
+    </section>
+
+    <div class="news-bar">
+      <strong>RECENT NEWS</strong>
+      <div id="news"></div>
+      <button type="button" id="newsPrev" aria-label="Previous news">‹</button>
+      <button type="button" id="newsNext" aria-label="Next news">›</button>
+    </div>
+
+    <div class="content-layout">
+      <div class="main-content">
+        <div class="cards" id="cards"></div>
+        <section class="rates">
+          <div>
+            <h3>POLICY RATES</h3>
+            <p>Policy Rate (Repo Rate) <b>9.50%</b></p>
+            <p>SLF <b>11.00%</b></p><p>SDF Rate <b>7.50%</b></p>
+            <p>Bank Rate <b>4.00%</b></p><small>*Sample data for design reference</small>
+          </div>
+          <div>
+            <h3>RESERVE RATIOS</h3>
+            <p>Traditional Banking &nbsp; <b>SLR / CRR</b></p>
+            <p>Islamic Banking &nbsp; 5.5% &nbsp; 4.0%</p>
+            <p>Deposit Taker FIs &nbsp; 5% &nbsp; 1.5%</p>
+            <p>Non Deposit Taker FIs &nbsp; 2.5%</p><small>*Please check official updates</small>
+          </div>
+          <div>
+            <h3>INTER-BANK EXCHANGE RATE</h3>
+            <p>(Previous working day)</p>
+            <div class="exchange"><b>CURRENCY</b><b>HIGHEST</b><b>LOWEST</b><b>AVERAGE</b></div>
+            <p>USD &nbsp; 123.0000 &nbsp; 122.9000 &nbsp; 122.9100</p>
+            <small>*Sample data for design reference</small><br>
+            <a class="read-more" href="https://www.bb.org.bd/en/index.php/econdata/exchangerate" target="_blank" rel="noopener">READ MORE</a>
+          </div>
+        </section>
+      </div>
+
+      <aside class="sidebar">
+        <div class="side-box nrbc">
+          <h3>NRBTA</h3><b>Non-Resident Convertible<br>Take Account</b>
+          <p>“A Modern Banking Solution for NRBs”</p><small>Savings and Investment</small>
+        </div>
+        <div class="side-box"><h3>ICT SECURITY ALERT</h3>
+          <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">ICT Security Advisories &amp; Alerts</a></div>
+        <div class="side-box complaint">
+          <h3>CUSTOMERS' INTEREST<br>PROTECTION CENTER (CIPC)</h3>
+          <b>FOR ANY COMPLAINT</b><strong>Call: 16236</strong>
+          <p>Email: bb.cipc@bb.org.bd</p><p>Download Mobile App<br>Submit Online</p>
+          <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">View all →</a>
+        </div>
+        <div class="side-box market">
+          <h4>FX Market Spot Exchange Rate</h4><p>(Reference Rate in USDBDT)</p>
+          <strong>Check official rate</strong>
+          <a href="https://www.bb.org.bd/en/index.php/econdata/exchangerate" target="_blank" rel="noopener">View all →</a><hr>
+          <h4>CALL MONEY RATE</h4><p>Weighted Average Interest Rate</p>
+          <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">View all →</a><hr>
+          <h4>MONEY MARKET REFERENCE RATE (MMRR)</h4>
+          <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">View all →</a>
+        </div>
+        <div class="side-box hotline">
+          <h3>EMERGENCY HOTLINE</h3>
+          <div class="hotline-img"><img src="asstes/national-helpline.jpg" alt="National helpline information"></div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div><h3>CONTACT</h3><p>Bangladesh Bank, Motijheel, Dhaka</p>
+        <p>Phone: +880-2555665001-6</p><p>E-mail: webmaster@bb.org.bd</p>
+        <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">Contact for other purposes</a></div>
+      <div><h3>USEFUL LINKS</h3>
+        <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">› Foreign Investment and Financing Portal</a>
+        <a href="https://www.bb.org.bd/en/index.php/financialactivity/paymentsystem" target="_blank" rel="noopener">› Payment Systems</a>
+        <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">› Regulations and Guidelines</a>
+        <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">› Currency Museum | Banknotes and Coins</a>
+        <a href="https://www.saarcfinance.org/" target="_blank" rel="noopener">› SAARCFINANCE</a>
+        <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">› National ICT Policy</a>
+        <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">› BBTA Journal</a></div>
+      <div><h3>STAY CONNECTED</h3><div class="social">
+        <a href="https://www.facebook.com/BangladeshBank/" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">▶</a>
+        <a href="https://www.bb.org.bd/" target="_blank" rel="noopener" aria-label="Bangladesh Bank website">↗</a>
+      </div></div>
+    </div>
+    <div class="footer-links"><a href="#home">Home</a><span>|</span>
+      <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">Sitemap</a><span>|</span>
+      <a href="https://www.bb.org.bd/" target="_blank" rel="noopener">Feedback</a></div>
+    <div class="disclaimer"><b>Disclaimer:</b> This is a student-made practice website for CBT assessment, not the official Bangladesh Bank website. Please visit the official website for verified information.</div>
+  </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
